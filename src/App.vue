@@ -1,12 +1,19 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Lista de Cadastros</router-link>
+    <router-link to="/AddUsuario">Adicionar um Usuário</router-link>
+    <router-link to="/CadastroUpdate">Editar um cadastro</router-link>
   </nav>
   <router-view/>
 </template>
 
 <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -17,14 +24,17 @@
 
 nav {
   padding: 30px;
+  display: flex;
+  background-color: #007bff;
 }
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color:#fff;
+  margin:0 auto;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #e0f7ff;
 }
 </style>

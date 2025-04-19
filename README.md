@@ -1,24 +1,15 @@
-# teste
+# 📋 Projeto de Página de Cadastro
 
-## Project setup
-```
-npm install
-```
+Este é um projeto simples de uma página de cadastro desenvolvido com **Vue.js**. O objetivo principal foi praticar requisições **GET**, **POST** e **PATCH** utilizando a biblioteca **Axios** com um backend simulado através do **JSON Server**.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 🚀 Funcionalidades
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- ✅ **Adicionar cadastros** (POST)
+- 📄 **Exibir lista de cadastros** (GET)
+- 🔁 **Editar cadastros existentes** (PATCH)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 🛠️ Tecnologias utilizadas
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue.js
+- Axios
+- JSON Server
